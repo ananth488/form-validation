@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formvalidation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <!-- form -->
+
+
+    <div class="container">
+        <form class="forms" id="btn">
+            <div class="heading">Form Validation</div>
+            <!-- user name -->
+            <div class="username">
+                <label for="username">Username</label>
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="username" id="username" placeholder="Enter your username">
+                <i class="fa-solid fa-circle-exclamation fail-icon"></i>
+                <i class="fa-solid fa-circle-check success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <!-- email -->
+            <div class="email">
+                <label for="email">Email</label> 
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="Enter your Email">
+                <i class="fa-solid fa-circle-exclamation fail-icon"></i>
+                <i class="fa-solid fa-circle-check success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <!-- password -->
+            <div class="password">
+                <label for="password">Password</label>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="Enter your password">
+                <i class="fa-solid fa-circle-exclamation fail-icon"></i>
+                <i class="fa-solid fa-circle-check success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <!-- Confirm password -->
+            <div class="confirm_password">
+                <label for="confirm_password">Confirm Password</label>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="password" id="confirmpassword" placeholder="Enter your confirm password">
+                <i class="fa-solid fa-circle-exclamation fail-icon"></i>
+                <i class="fa-solid fa-circle-check success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <button type="submit" >Submit</button>
+            
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
